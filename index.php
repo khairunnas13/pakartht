@@ -80,7 +80,7 @@
              <?php if(!isset($_GET['idpertanyaan'])){?>
                 <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.2s">
                     <h2 class="subtitle custom-white wow bounceInLeft center animated">Diagnosa Penyakit THT</h2>       
-                    <h2><a href="https://github.com/khairunnas13/pakartht.git/index.php?idpertanyaan=1#service">Mulai</a></h2>
+                    <h2><a href="http://pakartht.azurewebsites.net/index.php?idpertanyaan=1#service">Mulai</a></h2>
                 </div> 
             </div>
     
@@ -115,7 +115,7 @@
                                     echo "<h2 class='service-main-content wow pulse animated custom-white'>Hasil diagnosa: <br>Anda Mengalami ".$data['nama_penyakit']."</br></h2>";
                                     echo "<h3 class='service-main-content wow pulse animated custom-white'>".$data['deskripsi']." <br> <br>Saran : ".$data['pengobatan']." </br></br>  </h3>";
                                 ?>
-                                    <a href="https://github.com/khairunnas13/pakartht.git/index.php?idpertanyaan=1#service">Diagnosa Kembali</a>";
+                                    <a href="http://pakartht.azurewebsites.net/index.php?idpertanyaan=1#service">Diagnosa Kembali</a>";
                                   <?php  
                                      } 
                                    }
